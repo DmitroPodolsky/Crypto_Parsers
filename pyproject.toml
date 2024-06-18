@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "blaze-data"
+version = "0.1.0"
+description = ""
+authors = ["DmitroPodolsky <podolskijdmitro1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.9.5"
+pydantic-settings = "^2.2.1"
+loguru = "^0.7.2"
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+openpyxl = "^3.1.2"
+selenium = "^4.21.0"
+webdriver-manager = "^4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

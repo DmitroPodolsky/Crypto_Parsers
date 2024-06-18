@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    build: .
+    command: python -m app
+    environment:
+      - .env
+    volumes:
+        - data-parsed:/app/data
+volumes:
+  data-parsed:
